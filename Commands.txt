@@ -1,0 +1,6 @@
+Invoke-WebRequest -OutFile swagger-codegen-cli.jar http://central.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.4/swagger-codegen-cli-2.4.4.jar
+
+
+
+
+java -jar .\swagger-codegen-cli.jar generate -i http://petstore.swagger.io/v2/swagger.json -l java  -o /Swagger-Codegen/Project1/java_client
